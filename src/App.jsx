@@ -1,14 +1,14 @@
+import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
-import Counter from './features/counter/Counter'
-import { UsersList } from './features/users/UsersList'
+import TodosPage from './TodosPage'
+import Header from './Header'
 
 function App() {
 
   return (
-    <>
-      {/* <Counter /> */}
-      <UsersList />
-    </>
+    <div className='layout'>
+      <TodosPage />
+    </div>
   )
 }
 
